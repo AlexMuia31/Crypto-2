@@ -8,6 +8,7 @@ export const bannerStyles = makeStyles(() => ({
     },
     bannerContent: {
         height: 400,
+        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         paddingTop: 25,

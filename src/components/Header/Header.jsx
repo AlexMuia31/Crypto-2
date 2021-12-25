@@ -43,7 +43,7 @@ const Header = () => {
                             onChange={(e) => setCurrency(e.target.value)}
                         >
                             <MenuItem value={"USD"}>USD</MenuItem>
-                            <MenuItem value={"KSH"}>KES</MenuItem>
+                            <MenuItem value={"JPY"}>JPY</MenuItem>
                         </Select>
 
                     </Toolbar>
