@@ -39,9 +39,15 @@ const Header = () => {
                                 height: 40,
                                 marginRight: 15,
                             }}
+                            labelId="demo-simple-select-label"
+                            id="demo-simple-select"
                             value={currency}
+
+                            defaultValue={'JPY'}
                             onChange={(e) => setCurrency(e.target.value)}
+
                         >
+
                             <MenuItem value={"USD"}>USD</MenuItem>
                             <MenuItem value={"JPY"}>JPY</MenuItem>
                         </Select>
